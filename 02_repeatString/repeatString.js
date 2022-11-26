@@ -1,8 +1,11 @@
  const repeatString = function(string, num) {
         let i;
+        let result = '';
       for (i = 0; i<num; i++) {
-        return (string);
+        result+=string;
+        
      }
+     return result;
 
    };
 
