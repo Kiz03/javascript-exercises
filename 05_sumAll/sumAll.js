@@ -22,7 +22,6 @@ const sumAll = function(frs, end) {
 };
 
 
-};
 
 // Do not edit below this line
 module.exports = sumAll;
