@@ -3,7 +3,7 @@ const convertToCelsius = function(fer) {
   if (Number.isInteger(cel) === true) {
     return parseInt(cel);
   } else {
-    return cel.toFixed(1); 
+    return parseFloat(cel.toFixed(1)); 
 
   }
   
@@ -14,7 +14,7 @@ const convertToFahrenheit = function(cer) {
   if (Number.isInteger(fel) === true) {
     return parseInt(fel);
   } else {
-    return fel.toFixed(1);
+    return parseFloat(fel.toFixed(1));
 
   }
   
