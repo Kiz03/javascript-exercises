@@ -1,7 +1,7 @@
 const convertToCelsius = function(fer) {
   let cel = 5/9 * (fer - 32);
   if (Number.isInteger(cel) === true) {
-    return cel;
+    return parseInt(cel);
   } else {
     return cel.toFixed(1); 
 
@@ -12,7 +12,7 @@ const convertToCelsius = function(fer) {
 const convertToFahrenheit = function(cer) {
   let fel = 9/5 * (cer) + 32;
   if (Number.isInteger(fel) === true) {
-    return fel;
+    return parseInt(fel);
   } else {
     return fel.toFixed(1);
 
